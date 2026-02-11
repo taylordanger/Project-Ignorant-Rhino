@@ -1,6 +1,6 @@
 Project Ignorant Rhino — replication analysis
 
-Purpose
+#Purpose:
 This repository contains an opinionated, minimal analysis pipeline and supporting materials to run the pre-registered independent replication of:
 
 "Polyatomic time crystals of the brain neuron extracted microtubule are projected like a hologram meters away" (J. Appl. Phys. 2022; DOI:10.1063/5.0130618)
