@@ -1,0 +1,9 @@
+# Pre-registration analysis configuration
+sampling_rate: 1000  # Hz default (override per-file via HDF5 attrs)
+welch_nperseg: 4096
+welch_overlap: 0.5
+peak_prominence: 1e-8
+frequency_bands:
+  - name: claimed_band_1
+    low: 100
+    high: 1000
