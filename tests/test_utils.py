@@ -1,6 +1,12 @@
+import sys
+import os
 import numpy as np
 import h5py
 from scipy import signal
+
+# ensure project root is on sys.path so `src` is importable during tests
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.utils import load_h5_timeseries, detrend_series, detect_peaks_prominence
 
 
